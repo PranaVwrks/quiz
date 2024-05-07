@@ -72,5 +72,16 @@ button{
 footer{
   text-align: center;
   color: azure;
-  
+  }
+
+@media (max-width: 600px) {
+      
+     .heading h1{
+       border : none;
+     }
+       
+     .heading h3{
+       border-top: 3px dotted rgb(243, 164, 67);
+     }
+
 }
